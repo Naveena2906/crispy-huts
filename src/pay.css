@@ -1,0 +1,106 @@
+
+  .options
+  {
+   text-align: center   ;
+  }
+
+  
+ 
+  .options img{
+    width:250px;
+    height:200px;
+    
+  }
+  .Button button{
+    /* display:flex; */
+    padding: 10px 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: white;
+  
+  }
+  button:hover{
+    transform: scale(1.1) translate(5px);
+    transition: 0.4s;
+  }
+  
+  .Button h4{
+      position: absolute;
+      left: 0;
+      top: -60px;
+      background-color: black;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      font-size: 15px;
+      font-weight: 600;
+      transition: .3s;
+  }
+  
+  .container10{
+    width: 100%;
+    border: 5px solid black;
+    height: 50vh;
+    width: 35vw;
+    /* margin-top: 10%;
+    margin-left: 30%; */
+    
+  }
+  .lingesh input[type=text] {
+    border: 3px solid black;
+    width:10vw;
+    height:5vh;
+    right:auto;
+  }
+  .lingesh input[type=password] {
+    border: 3px solid black;
+    width:15vw;
+    height:5vh;
+  }
+  .lingesh ::placeholder{
+    font-size: 20px;
+  }
+  
+  
+  .inside{
+    width: 50%;
+    margin-top: 100px;
+    
+    
+  }
+  .b{
+      background-color: #4CAF50; 
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      margin-left: 40%;
+      font-size: 16px;
+    
+  }
+  .pot {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bb{
+    border:4px solid gray;
+    width:30%;
+    height:10%;
+    margin-left: 35%;
+  }
+  .b10{
+    background-color: #4CAF50; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    margin-left: 30%;
+    position: relative;
+    font-size: 16px;
+    bottom: 2em;
+  
+}

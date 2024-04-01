@@ -1,0 +1,129 @@
+
+  .MyCard{
+    color:#f64f59;
+     background-color: #f5f5f5;
+     padding:15px;
+     /* border:1px solid #f5f5f5; */
+     border-radius:5px;
+     /* display: grid; */
+    width: 180px;
+    margin:10% 0% 10% 44%;
+    /* box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3); */
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    .Mybutton{
+       font-size: 15px;
+       padding: 20px;
+       color:gray;
+       border:none;
+       border-radius: 5px;
+      }
+      a{
+       text-decoration: double;
+       color:#000 !important;
+      }
+      .Page2{
+        color:#ffffff!important;
+         position: absolute;
+         top:0px;
+        height: 100vh;
+        width:100%;
+         background: #12c2e9; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);/* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+        .Page1{
+          position: absolute;
+          top:0px;
+           height: 100vh;
+           width:100%;
+         color:#ffffff!important;
+         background: #833ab4; /* fallback for old browsers */
+         background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* Chrome 10-25, Safari 5.1-6 */
+         background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          }
+          
+    
+  
+          /* Form CSS */
+          #registers, #login {
+            width: 400px;
+            border: 1px solid #d6d7da;
+            padding: 0px 15px 15px 15px;
+            border-radius: 50px;
+            font-family: arial;
+            line-height: 16px;
+            color: #333333;
+            font-size: 15px;
+            background: #ffffff;
+            margin: 100px auto;
+          }
+          
+           label, input {
+            /* display: block;
+            //margin-bottom: 10px; */
+            width: 50%
+          }
+          
+           input {
+            padding: 5px;
+            border: solid 1px #BDC7D8;
+          
+          }
+          
+          .buttons {
+            background-color: #3ac162;
+            border-color: #3ac162;
+            font-weight: bold;
+            padding: 8px 15px;
+            color: #ffffff;
+          }
+          
+          .errorMsgs {
+            color: #cc0000;
+            margin-bottom: 12px;
+          }
+          
+          .sucessMsg {
+            color: #6B8E23;
+            margin-bottom: 10px;
+          }
+          
+  /* .connect{
+    margin-bottom:10px;
+    margin-top: -5%;
+    color:#833ab4;
+  } */
+ 
+  .new{
+    border-radius: 30%;
+    border:none
+  }
+   .naveena{
+      background-image:url('https://cdn.wallpapersafari.com/26/92/0KH5pV.jpg');    
+      background-repeat: center;
+      background-size: cover;
+      opacity: 100%;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      z-index: -1;
+      content: "";
+      
+    } 
+  .name{
+    color:black;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+  
+  .pos1{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
